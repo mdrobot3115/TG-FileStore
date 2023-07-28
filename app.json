@@ -7,7 +7,7 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/PredatorHackerzZ/TG-FileStore",
+    "repository": "https://github.com/mdrobot3115/TG-FileStore",
     "website": "https://telegram.dog/PredatorHackerzZ",
     "success_url": "https://t.me/TeleRoidGroup",
     "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
@@ -41,15 +41,4 @@
             "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
         }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
 }
