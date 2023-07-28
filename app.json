@@ -8,9 +8,6 @@
         "bot"
     ],
     "repository": "https://github.com/mdrobot3115/TG-FileStore",
-    "website": "https://telegram.dog/PredatorHackerzZ",
-    "success_url": "https://t.me/TeleRoidGroup",
-    "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
@@ -41,4 +38,10 @@
             "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
         }
     },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
 }
